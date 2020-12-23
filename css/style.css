@@ -128,9 +128,6 @@ h3{font-size:0.935rem; display:inline-block; color:#999;}
 
 
 #sec7 h2{margin-top:110px; margin-right:35px;}
-#sec7 button{width:50px; height:50px; background:none;}
-#sec7 .l_arrow{position:absolute; margin-top:165px; margin-left:-60px; cursor: pointer;}
-#sec7 .r_arrow{position:absolute; margin-top:165px; margin-left:1285px; cursor: pointer;}
 #sec7 .inner > div{margin-right:3px; width:calc((100% - 10px) / 3); height:380px;}
 #sec7 .news{float: left; width:423px; height:380px;
             background-color: #F2F2F2;
