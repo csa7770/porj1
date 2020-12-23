@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;900&display=swap');
 
 * {margin:0; padding:0;}
-html{font-size:16px; font-family: "NanumSquare_acR";}
+html{font-size:16px; }
 body{ font-size:16px;
       color:#6f6f6f;
       font-family: 'Nanum Gothic', sans-serif }
@@ -26,12 +26,46 @@ button{outline:0; border:none;}
 .sound_only{display: block;text-indent:-9999999999px;}
 
 .bold{font-weight:bold;}
-
+h3{font-weight:normal;}
 
 
 /****************메인화면, 서브화면 공통영역 ************************************/
 #wrap{width:100%; min-width:1024px; overflow:hidden;}
 .inner{min-width:1024px;max-width:1280px;margin:0 auto;}
+
+
+#nav_pop{position:fixed; width:100%; min-width:1024px;
+        height:100%; overflow:auto;
+        background-color:/*background: #7d92c4;
+        background: -moz-linear-gradient(-45deg,  #7d92c4 0%, #4b67aa 47%, #3e5284 82%, #273149 100%);
+        background: -webkit-linear-gradient(-45deg,  #7d92c4 0%,#4b67aa 47%,#3e5284 82%,#273149 100%);
+        background: linear-gradient(135deg,  #7d92c4 0%,#4b67aa 47%,#3e5284 82%,#273149 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d92c4', endColorstr='#273149',GradientType=1 );
+        ;*/
+        background: #243560;
+background: -moz-linear-gradient(-45deg,  #243560 7%, #4d66a5 51%, #eece66 96%);
+background: -webkit-linear-gradient(-45deg,  #243560 7%,#4d66a5 51%,#eece66 96%);
+background: linear-gradient(135deg,  #243560 7%,#4d66a5 51%,#eece66 96%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#243560', endColorstr='#eece66',GradientType=1 );
+        
+        z-index:99999;
+        display:none;}
+#nav_pop .navpop_inner{width:1024px; margin:0 auto;}
+#nav_pop #nav_logo{position: relative; margin-top:60px; margin-bottom:80px;}
+#nav_pop #nav_logo .nav_close{position:absolute; top:0; right:0;
+                              background: none; cursor: pointer;}
+/*#nav_pop .bar{width:1024px; height:2.5px; background-color: #fff; margin-bottom:70px;}*/
+#nav_pop .depth1 > li {width:25%; float:left; margin-bottom:100px;
+                       color:#fff; font-weight:bold;
+                       text-align: center;}
+#nav_pop .depth1 > li > a {font-size:1.8rem; margin-bottom:20px;
+                           display: block;}
+#nav_pop .depth2{font-size:1.2rem;
+                 line-height: 3rem;
+                 font-weight: normal;
+                 color:#fff;}
+
+
  #header .top_icon{float:right;
       width:260px;height:75px;
       /*background-color:rgba(36,53,96,0.8)*/}

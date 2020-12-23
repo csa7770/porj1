@@ -41,6 +41,10 @@ h3{font-size:0.935rem; display:inline-block; color:#999;}
                            color:#fff; font-size:0.937rem;}
 #sec2 .notice{left:0; border-radius:5px;}
 #sec2 .purp{right:0; border-radius:5px;}
+#sec2 .close1{float:right; background:none;
+             margin-right:10px; margin-top:10px; cursor: pointer;}
+#sec2 .close2{float:right; background:none;
+             margin-right:10px; margin-top:10px; cursor: pointer;}
 #sec2 .notice .tit, #sec2 .purp .tit,
 #sec2 .notice_list, #sec2 .purp_list{margin-top:25px; margin-left:19px;}
 #sec2 .notice_list, #sec2 .purp_list{width:450px; height:18px; overflow:hidden;}

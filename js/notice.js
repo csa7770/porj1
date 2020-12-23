@@ -15,4 +15,11 @@ $(function(){
                         });
                  },2500); 
   
+    $('#sec2 .close1').click(function(){
+      $('.notice').fadeOut();
+    });
+
+    $('#sec2 .close2').click(function(){
+        $('.purp').fadeOut();
+      });
   })
