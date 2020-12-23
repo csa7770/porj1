@@ -1,5 +1,5 @@
-$(function{
-    $('.close sound_only').click(function(){
-        $('top_popup').hide();
-    })
+$(function(){
+    $('#top_popup .close').click(function(){
+        $('#top_popup').slideUp();
+    });
 })

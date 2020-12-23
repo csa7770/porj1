@@ -4,9 +4,8 @@
 @import url('https://fonts.googleapis.com/css?family=Galada|Nanum+Gothic|Nanum+Myeongjo');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;900&display=swap');
 
-
 * {margin:0; padding:0;}
-html{font-size:16px; font-family: "nanumsquare_ac";}
+html{font-size:16px; font-family: "NanumSquare_acR";}
 body{ font-size:16px;
       color:#6f6f6f;
       font-family: 'Nanum Gothic', sans-serif }
@@ -35,17 +34,19 @@ button{outline:0; border:none;}
 .inner{min-width:1024px;max-width:1280px;margin:0 auto;}
  #header .top_icon{float:right;
       width:260px;height:75px;
-      /*background-color:red;*/}
+      /*background-color:rgba(36,53,96,0.8)*/}
 
 #header .top_icon button{background: none; border:none;}
 #header .all_nav{margin-top:25px; margin:24px 24px; cursor: pointer;}
 #header .all_nav span{display:block;
                       width:24px; height:5px;
                       background-color: #999;
-                      margin-bottom:5px;}
+                      margin-bottom:5px;
+                      margin-right:5px;}
+#header button img{margin-bottom:25px; margin-right:20px;}
 #header .my{margin-right:1.343em; cursor: pointer;}
 #header .search{margin-right:1.343em; cursor: pointer;}
-#header .lan{cursor: pointer;}
+#header .lan{cursor: pointer; margin-right:0;}
 
   /* 네비4 - 메가네비100% */
   #header .inner{position: relative;}
